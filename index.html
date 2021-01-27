@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="clear">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Jes.</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- dark mode -->
+                <div class="view-mode">
+                    <span id="dark-btn"><i class="fas fa-moon" data-mode="light" onclick="changeMode(this)"></i></span>
+                </div>
+                <!-- toggle -->
+                <div class="toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Jesmin Juthi</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, mollitia laboriosam soluta numquam modi dolorum ullam tempore recusandae minima non!</p>
+                <a href="#" class="custom-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
